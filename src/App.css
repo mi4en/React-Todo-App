@@ -9,14 +9,20 @@ body {
   line-height: 1.4;
 }
 
-.App {
+/* .App {
   text-align: center;
+} */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
@@ -34,7 +40,7 @@ a {
 }
 
 .container {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .btn {
